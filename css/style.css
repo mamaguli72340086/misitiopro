@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: #f5f7fa;
+}
+
+header {
+    background: #0d1b2a;
+    color: white;
+    padding: 15px;
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 70px;
+    margin-right: 15px;
+}
+
+nav {
+    background: #1b263b;
+    display: flex;
+    justify-content: center;
+}
+
+nav a {
+    color: white;
+    padding: 15px 20px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    background: #415a77;
+}
+
+.perfil-section {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.perfil-img {
+    width: 180px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+footer {
+    text-align: center;
+    padding: 15px;
+    background: #0d1b2a;
+    color: white;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .header-container {
+        flex-direction: column;
+    }
+
+    nav {
+        flex-direction: column;
+        align-items: center;
+    }
+}
